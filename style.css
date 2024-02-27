@@ -7,27 +7,35 @@ body {
   padding: 30px 0;
 }
 #hover .box .minibox {
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 150px;
   border: 1px solid black;
   margin: 5px;
   background-color: #edaaaa;
   color: white;
-  transition: 1s;
+  transition: 2s;
 }
 #hover .box .minibox:hover {
   border: 3px solid black;
   border-radius: 40px;
-  width: 110px;
-  background-color: #af3939;
+  width: 150px;
+  background-color: #24adc6;
 }
 #hover .box .minibox:hover h1 {
   margin: 46px;
 }
+@media screen and (min-width: 900px) {
+  #hover .box .minibox {
+    background-color: #fdfdfd;
+    width: 200px;
+    height: 200px;
+    transition: 3s;
+  }
+}
 #hover .box .wid:hover {
-  border: 3px solid #a34646;
-  background-color: #a34646;
-  width: 110px;
+  border: 3px solid red;
+  background-color: #9d2f2f;
+  width: 270px;
   border-radius: 50px;
   transition: 2s;
 }
@@ -36,8 +44,8 @@ body {
 }
 #hover .box .big:hover {
   border: 1px solid black;
-  background-color: #b71127;
-  width: 110px;
+  background-color: #b425b4;
+  width: 270px;
   border-radius: 1px;
   transition: 3s;
 }
@@ -47,24 +55,96 @@ body {
   font-size: 70px;
 }
 #hover .box .txt:hover {
-  border: 55px solid red;
+  border: 120px solid blue;
   background-color: #b9b1b2;
-  width: 110px;
+  width: 170px;
   border-radius: 49px;
   transition: 3s;
 }
 #hover .box .txt:hover h1 {
-  margin: 6px;
-  color: #000000;
+  margin: 2px;
+  color: #eeeeee;
+  font-weight: 500;
+  font-size: 70px;
 }
 #hover .box .wbt:hover {
-  border: 1px solid black;
-  background-color: #fa1c36;
-  width: 300px;
+  border: 30px solid black;
+  background-color: #000000;
+  width: 100px;
   transition: 3s;
-  border-radius: 1px;
+  border-radius: 30px;
 }
 #hover .box .wbt:hover h1 {
-  margin: 2px;
-  color: #000000;
+  margin: 3px;
+  color: #eeeeee;
+  font-weight: 500;
+  font-size: 70px;
+}
+
+#media {
+  padding: 80px 0;
+}
+#media .box .minibox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 5px;
+  background-color: #35a5c1;
+  color: white;
+}
+#media .box .minibox:hover {
+  width: 200px;
+  height: 200px;
+  transition: 3s;
+  background-color: #2e37b0;
+  color: white;
+  border-radius: 20px;
+}
+#media .box .minibox:hover h1 {
+  margin: 15px;
+  font-weight: 500;
+  font-size: 70px;
+}
+#media .box .wid:hover {
+  border: 100px solid blue;
+  background-color: #322cb0;
+  width: 270px;
+  border-radius: 20px;
+  transition: 3s;
+}
+#media .box .wid:hover h1 {
+  margin: 25px;
+  font-weight: 500;
+  font-size: 30px;
+}
+#media .box .big:hover {
+  border: 1px solid black;
+  background-color: #b71127;
+  width: 230px;
+  border-radius: 1px;
+  transition: 3s;
+}
+#media .box .big:hover h1 {
+  margin: 45px;
+  font-weight: 500;
+  font-size: 70px;
+}
+#media .box .txt:hover {
+  border: 5px solid green;
+  background-color: #9fae1c;
+  width: 150px;
+  border-radius: 39px;
+  transition: 3s;
+}
+#media .box .txt:hover h1 {
+  margin: 5px;
+  color: #1a1492;
+}
+@media screen and (min-width: 900px) {
+  #media .box .minibox {
+    background-color: #fdfdfd;
+    width: 150px;
+    height: 150px;
+    transition: 3s;
+  }
 }/*# sourceMappingURL=style.css.map */
